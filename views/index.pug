@@ -1,0 +1,14 @@
+extends layout
+
+block main
+	main.mainContent
+		div.container
+			h2 This service takes in URLs and provides a shortened link to that URL.
+			h3 Instructions:
+			p Enter and submit a URL of your choice (ex: http://www.google.com or https://www.freecodecamp.org).
+			br
+			include includes/submitform.pug
+			br 
+			p Or use the API interface (ex: https://usms.herokuapp.com/api?url=http://www.google.com or https://usms.herokuapp.com/api?url=https://www.freecodecamp.org).
+
+

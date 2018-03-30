@@ -1,0 +1,16 @@
+extends layout
+
+block main
+	main.mainContent
+		div.container
+			h2 
+				bold Oringal URL: 
+			p #{originalUrl}
+			h2
+				bold Shortened URL:
+			if urlIsValid
+				a(href=`${shortUrl}` target='_blank')
+						p #{shortUrl}
+			else
+				p Invalid Url
+			include includes/submitform.pug
