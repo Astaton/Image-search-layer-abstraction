@@ -1,0 +1,7 @@
+extends layout
+
+block main
+	each result in searchResults
+		div= result.altText 
+			a(href=result.imgUrl)
+				img(src=result.imgThumbUrl)

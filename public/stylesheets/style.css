@@ -21,10 +21,10 @@ body{
 
 .header{
 	text-align: center;
-	background-color: forestgreen;
+	background-color: #373739;
 	color: white;
 	margin: 0;
-	padding: 20px 0px;
+	padding: 12px 0px;
 }
 
 .mainContent{
@@ -32,7 +32,7 @@ body{
 	margin-left: 35px;
 }
 .container{
-	background-color: #ea8e4f;
+	background-color: #b5dcdf;
 	margin: 0 auto;
 	width: 40%;
 	padding: 5px 25px 25px;
@@ -46,7 +46,7 @@ body{
 footer{
 	position: absolute;
 	bottom: 0;
-	background-color: forestgreen;
+	background-color: #373739;
 	color: white;
 	margin: 0;
 	width: 100%;
